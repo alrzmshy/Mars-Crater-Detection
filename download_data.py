@@ -1,11 +1,8 @@
-from __future__ import print_function
-
 import os
 
-try:
-    from urllib.request import urlretrieve
-except ImportError:
-    from urllib import urlretrieve
+
+from urllib.request import urlretrieve
+
 
 URLBASE = 'https://storage.ramp.studio/mars_craters_2/{}'
 DATA = [
@@ -34,9 +31,5 @@ def main(output_dir='data'):
 
 
 if __name__ == '__main__':
-    test = os.getenv('RAMP_TEST_MODE', 0)
 
-    if test:
-        print("Testing mode, not downloading any data.")
-    else:
-        main()
+     main()
