@@ -164,6 +164,9 @@ output = Reshape((GRID_H, GRID_W, BOX, 4 + 1 + CLASS))(x)
 # for more information: https://github.com/fchollet/keras/issues/2790
 output = Lambda(lambda args: args[0])([output, true_boxes])
 
+
+model = Model([input_image, true_boxes], output)
+
 yolo_model = Model([input_image, true_boxes], output)
 
 
@@ -312,7 +315,7 @@ def custom_loss(y_true, y_pred):
     current_recall = nb_pred_box / (nb_true_box + 1e-6)
     total_recall = tf.assign_add(total_recall, current_recall)
 
-    loss = tf.Print(loss, [tf.zeros((1))], message='Dummy Line \t', summarize=1000)
+
     loss = tf.Print(loss, [loss_xy], message='Loss XY \t', summarize=1000)
     loss = tf.Print(loss, [loss_wh], message='Loss WH \t', summarize=1000)
     loss = tf.Print(loss, [loss_conf], message='Loss Conf \t', summarize=1000)

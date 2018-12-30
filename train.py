@@ -75,7 +75,21 @@ checkpoint = ModelCheckpoint('weights_yolo_crater.h5',
 
 
 
-optimizer = Adam(lr=0.5e-4, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0)
+optimizer = Adam(lr=1e-4, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0)
+
+
+yolo_model.load_weights("full_yolo_backend.h5", by_name=True)
+
+
+layer = yolo_model.layers[-4] # the last convolutional layer is randomized
+weights = layer.get_weights()
+
+new_kernel = np.random.normal(size=weights[0].shape)/(GRID_H*GRID_W)
+new_bias   = np.random.normal(size=weights[1].shape)/(GRID_H*GRID_W)
+
+layer.set_weights([new_kernel, new_bias])
+
+print("Done loading weights.")
 
 yolo_model.compile(loss=custom_loss, optimizer=optimizer)
 
