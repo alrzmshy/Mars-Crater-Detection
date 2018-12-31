@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf679ac-f17d-434d-8b94-c4c9d0469250" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YOLO_craters.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/YOLO_craters.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1915">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="150">
+              <caret line="130" column="28" lean-forward="true" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,35 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="110" />
+            <state relative-caret-position="259">
+              <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yolo Step-by-Step-.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yolo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1484">
-              <caret line="317" selection-start-line="317" selection-end-line="317" />
+            <state relative-caret-position="574">
+              <caret line="312" column="18" lean-forward="true" selection-start-line="312" selection-start-column="18" selection-end-line="312" selection-end-column="18" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -68,19 +47,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imread</find>
+      <find>imrea</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,10 +61,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/yolo.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/yolo.py" />
         <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/train.py" />
       </list>
     </option>
   </component>
@@ -181,6 +155,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="gitignore update" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Yolo Step-by-Step-.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -188,47 +169,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1915">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1484">
-          <caret line="317" selection-start-line="317" selection-end-line="317" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../.local/lib/python3.6/site-packages/keras/utils/data_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="299">
+          <caret line="344" column="8" selection-start-line="344" selection-start-column="8" selection-end-line="344" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="130" column="28" lean-forward="true" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="68" column="49" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="312" column="18" lean-forward="true" selection-start-line="312" selection-start-column="18" selection-end-line="312" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

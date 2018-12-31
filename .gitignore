@@ -5,3 +5,5 @@ images_test/
 images_train/
 *.h5
 *.ipynb
+
+!spec/*.json
