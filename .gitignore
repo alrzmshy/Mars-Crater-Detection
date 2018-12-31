@@ -4,6 +4,5 @@ annotations_train/
 images_test/
 images_train/
 *.h5
-*.ipynb
+#*.ipynb
 
-!spec/*.json
